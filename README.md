@@ -102,7 +102,7 @@ In all selects that you want the change to be made, simply put the Munchkin clas
 
 ## License
 
-- MIT
+- [MIT](https://github.com/hheenry/munchkin.js/blob/B3.0/LICENSE)
 
 
 ## See working code
