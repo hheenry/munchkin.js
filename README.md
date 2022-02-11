@@ -31,18 +31,18 @@ To use the Munchkin.JS CDN just add the following lines to your code.
 - Head of HTML
 
 ```html
-<!-- Start - Munchkin CSS -->
-<link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/2UXMNp.css">
-<!-- End - Munchkin CSS -->
+    <!-- Start - Munchkin CSS -->
+    <link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/2UXMNp.css">
+    <!-- End - Munchkin CSS -->
 ```
 
 - At the end of the HTML Body
 
 ```html
-<!-- Start - Munchkin.JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="http://code.flcompy.com/munchkin/dist/js/HOiWdp.js"></script>
-<!-- End - Munchkin.JS -->
+    <!-- Start - Munchkin.JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://code.flcompy.com/munchkin/dist/js/HOiWdp.js"></script>
+    <!-- End - Munchkin.JS -->
 ```
 
 
@@ -53,13 +53,13 @@ To use the Munchkin.JS CDN just add the following lines to your code.
 By default Munchkin's colour settings are in Dark mode, but if you want to lessen the work of customising the selects you can use Light mode by just changing the name of a file.
 
 ```html
-<!-- Dark Mode - Munchkin standard -->
-<link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/2UXMNp.css">
+    <!-- Dark Mode - Munchkin standard -->
+    <link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/2UXMNp.css">
 ```
 
 ```html
-<!-- Light Mode - Munchkin standard -->
-<link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/pfoBd4.css">
+    <!-- Light Mode - Munchkin standard -->
+    <link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/pfoBd4.css">
 ```
 
 - Reduced file
@@ -67,8 +67,8 @@ By default Munchkin's colour settings are in Dark mode, but if you want to lesse
 In the CSS files certain animations and stylizations are placed by default to make Munchkin more beautiful and smooth, but the dev can choose not to use these settings, see below how to leave the files only with the necessary content.
 
 ```html
-<!-- Light Mode low - Munchkin standard -->
-<link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/pfoBd4.low.css">
+    <!-- Light Mode low - Munchkin standard -->
+    <link rel="stylesheet" href="http://code.flcompy.com/munchkin/dist/css/pfoBd4.low.css">
 ```
 - The Reduced file is not available for the light mode.
 
@@ -78,23 +78,23 @@ In the CSS files certain animations and stylizations are placed by default to ma
 For Munchkin to work the select will be created with the options normally, see an example below: 
 
 ```html
-<select name="UF" id="uf" required>
- <option value="diseble" selected disabled>Seu estado</option>
- <option value="AC">Acre</option>
- <option value="AL">Alagoas</option>
- <option value="EX">Estrangeiro</option>
-</select>
+    <select name="UF" id="uf" required>
+        <option value="diseble" selected disabled>Seu estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="EX">Estrangeiro</option>
+    </select>
 ```
 
 To make the select a noa face just put the class "my-munchkin", if you already have your own class and need it to continue just keep it together with the munchkin's one.
 
 ```html
-<select name="UF" id="uf" class="my-munchkin myclass" required>
- <option value="diseble" selected disabled>Seu estado</option>
- <option value="AC">Acre</option>
- <option value="AL">Alagoas</option>
- <option value="EX">Estrangeiro</option>
-</select>
+    <select name="UF" id="uf" class="my-munchkin myclass" required>
+        <option value="diseble" selected disabled>Seu estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="EX">Estrangeiro</option>
+    </select>
 ```
 
 In all selects that you want the change to be made, simply put the Munchkin class and you're done.
@@ -102,7 +102,7 @@ In all selects that you want the change to be made, simply put the Munchkin clas
 
 ## License
 
-- [MIT](https://github.com/hheenry/munchkin.js/blob/B3.0/LICENSE)
+- MIT
 
 
 ## See working code

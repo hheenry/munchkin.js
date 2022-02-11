@@ -159,7 +159,7 @@
   border: 2px solid var(--munchkin-hover-secondary); /* cor da borda quando o select estiver aberto */
   box-sizing: border-box;
 
-  width: 100.6%;
+  width: 101.2%;
   height: auto;
   max-height: 50vh;
 
@@ -172,7 +172,19 @@
   top: 100%;
   left: -2px;
 
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: scale(0.75) translateY(-21px);
+  -ms-transform: scale(0.75) translateY(-21px);
+  transform: scale(0.75) translateY(-21px);
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
+    opacity 0.15s ease-out;
+  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+
   z-index: 9;
+
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 }
 
 .j-munchkin .list:hover .option:not(:hover) {
@@ -188,8 +200,7 @@
   list-style: none;
   outline: none;
 
-  padding-left: 18px;
-  padding-right: 29px;
+  padding: 5px 20px;
 
   text-align: left;
 
